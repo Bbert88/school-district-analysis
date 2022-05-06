@@ -38,12 +38,24 @@ The above visualization is a snapshot of Thomas High Schools metrics once their 
 
 As you can see, once the Thomas High School 9th grade scores were replaced by NaN and the student count was updated to exclude THS 9th graders, THS retained their high scores and remain in the top 5 of the school district. The bottom 5 schools in the district remain unchanged. An image showing them can be located in the resources folder, if needed.
 
-- How does replacing the ninth-grade scores affect the following:
-  - Math and reading scores by grade
-  - Scores by school spending
-  - Scores by school size
-  - Scores by school type
+### Scores by School Spending
 
+![Scores by School Spending](./Resources/scores_by_school_spending.png)
+
+There are no changes in the data for this Dataframe after the re-analysis. Interestingly, overall, the schools with the highest overall passing percentage had the lowest amount of spending per student. Conversely, the schools with
+the lowest overall passing percentage had the highest amount of spending per student. Increased funding does not appear to result in higher scores.
+
+### Scores by School Size
+
+![Scores by Shool Size](./Resources/scores_by_school_size.png)
+
+There are also no changes in the data for this Dataframe. Small and Medium sized schools seem to have fared very well in their overall passing percentages (90% and 91% respectively). Large schools in this district seem to have really struggled with just a 58% overall passing percentage.
+
+### Scores by School Type
+
+![Scores by School Type](./Resources/scores_by_school_type.png)
+
+The elimination of the Thomas High School 9th grade students also had no effect on this dataframe. Charter school students seem to perform very well (90% overall passing percentage) compared to District schools (54% overall passing percentage).
 
 ## Summary 
 
