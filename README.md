@@ -2,7 +2,7 @@
 
 ## Overview of School District Analysis
 
-The broad goal of this project is to create a high level analysis of the school districts key performance. Specifically, all of the students math and reading standardized test data will be aggregated for analysis, reporting, and presentation to provide insights about performance trends and patterns. This analysis will assist the school board on making decisions regarding the school budgets and priorities. To accomplish this, Python (Pandas Library) and Anaconda (Jupyter Notebook) were used due to the tools that both offer when it comes to complex data analysis.
+The broad goal of this project is to create a high level analysis of the school districts key performance. Specifically, all of the students math and reading standardized test data will be aggregated for analysis, reporting, and presentation to provide insights about performance trends and patterns. This analysis will assist the school board on making decisions regarding the school budgets and priorities. To accomplish this, Python (Pandas Library) and Anaconda (Jupyter Notebook) were used due to the tools that both offer when it comes to complex data analysis. An initial analysis was completed, but then it was discovered that 9th grade students from one of schools (Thomas High School) had flawed score data. Due to this, a second analysis was completed where those scores were removed from the data set. 
 
 ## Resources
 
@@ -23,7 +23,7 @@ The updated district summary is slightly different from the original (which incl
 
 ![School Summary](./Resources/school_summary_removed.png)
 
-The above visualization is a snapshot of Thomas High Schools metrics once their 9th grade scores were removed. The scores decreased considerably from the original scores. This was because the calculations were not yet updated to adjust the student count to exclude all 9th graders. Please see the below visualiation which depicts the updated scores after the student count was updated.
+The above visualization is a snapshot of Thomas High Schools metrics once their 9th grade scores were removed. The scores decreased considerably from the original scores. This was because the calculations were not yet updated to adjust the student count to exclude all 9th graders. Please see the below visualization which depicts the updated scores after the student count was updated.
 
 ![Updated School Summary](./Resources/school_summary_replaced.png)
 
@@ -34,8 +34,6 @@ The above visualization is a snapshot of Thomas High Schools metrics once their 
   - % Passing reading decreased by .19
   - % Overall passing decreased by .31  
   - The Total School Budget & Per Student Budget were not effected.
-
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
 ### Top 5 Performing Schools
 
