@@ -11,8 +11,6 @@ The broad goal of this project is to create a high level analysis of the school 
 
 ## Results
 
-- How is the district summary affected?
-
 Please see below District Summary, which is after the re-analysis (removal of Thomas High School 9th grade scores).
 
 ![District Summary](./Resources/district_summary.png)
